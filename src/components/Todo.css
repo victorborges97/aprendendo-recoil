@@ -63,19 +63,6 @@
   border-radius: 8px;
 }
 
-.AddTodo li > button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: #d22b2b;
-  border-radius: 4px;
-  margin: 4px 2px;
-  border: none;
-  padding: 5px;
-  text-align: center;
-}
-
 .todo-text {
   max-width: calc(100% - 50px);
 }
