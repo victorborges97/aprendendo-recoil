@@ -117,7 +117,7 @@ const Todo = () => {
 
                 <IconButton
                   onClick={_ => deleteTodo(i.key)}
-                  style={{ backgroundColor: "#d22b2b", color: "#FFF" }}
+                  style={{ backgroundColor: "#d22b2b", color: "#FFF", width: 30, height: 30, }}
                   aria-label="add"
                   fontSize="small"
                 >
