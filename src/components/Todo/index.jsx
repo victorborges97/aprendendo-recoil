@@ -95,9 +95,9 @@ const Todo = ({ todoList, idTab }) => {
         >
           {
             editItem != null ? (
-              <SaveIcon fontSize="small" color="#FFF" />
+              <SaveIcon fontSize="small" style={{ color: "#FFF" }} />
             ) : (
-              <AddIcon fontSize="small" color="#FFF" />
+              <AddIcon fontSize="small" style={{ color: "#FFF" }} />
             )
           }
         </IconButton>

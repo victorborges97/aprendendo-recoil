@@ -40,6 +40,7 @@ const Home = () => {
 		}
 		setTodos(todosId);
 
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [idTab, todoList])
 
 	const onKeyDown = (event) => {
@@ -107,12 +108,12 @@ const Home = () => {
 						<Divider />
 						<List>
 							{tabsList && tabsList.map((item, index) => (
-								<>
-									<ListItem onClick={() => mudarTab(item)} button key={item.key}>
+								<div key={item.key}>
+									<ListItem onClick={() => mudarTab(item)} button >
 										<ListItemText primary={item.name} />
 									</ListItem>
 									<Divider />
-								</>
+								</div>
 							))}
 						</List>
 					</Box>
