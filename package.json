@@ -15,6 +15,7 @@
     "react-scripts": "4.0.3",
     "recoil": "^0.3.1",
     "recoil-persist": "^2.9.0",
+    "uuid": "^8.3.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

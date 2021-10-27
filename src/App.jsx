@@ -6,20 +6,17 @@ import {
 } from "react-router-dom";
 import { RecoilRoot } from "recoil";
 
-import Home from "./components/Home";
-import Todo from "./components/Todo";
+import Home from "./screens/Home";
 
 function App() {
   return (
     <RecoilRoot>
-      <Router>
-        <Switch>
+      <Router
+      >
+        <Switch
+        >
 
           <Route exact path="/">
-            <Todo />
-          </Route>
-
-          <Route path="/users">
             <Home />
           </Route>
 
